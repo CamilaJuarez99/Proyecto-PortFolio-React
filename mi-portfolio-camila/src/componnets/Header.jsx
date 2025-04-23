@@ -1,7 +1,7 @@
-function Header({ alumno }) {
+function Header({ nombre }) {
   return (
     <div>
-      <h1> MI PORTFOLIO {alumno} </h1>
+      <h1> MI PORTFOLIO {nombre} </h1>
     </div>
   );
 }
