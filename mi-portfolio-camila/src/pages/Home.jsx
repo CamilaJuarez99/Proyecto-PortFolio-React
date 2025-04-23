@@ -22,4 +22,4 @@ function Home () {
 
 }
 
-export defaul Home;
+export default Home;
