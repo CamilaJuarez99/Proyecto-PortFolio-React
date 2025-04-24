@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <div>
-      <Header nombre={datos.nombre.apellido} />
+      <Header datos={datos} />
       <Main datos={datos} />
       <Footer />
     </div>

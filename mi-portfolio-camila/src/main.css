@@ -1,0 +1,34 @@
+
+.mi-card {
+    background-color: #646cff;
+    border: 1px solid #3e478e;
+    box-shadow: 0 4px 20px  #320671;
+    transition: transform 0.3s ease;
+  }
+
+  .mi-card:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .titulo {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+
+  }
+
+  .texto {
+    color: #320671;
+    font-size: italic;
+    width: 100%;
+    background-color: #adb5f5;
+    font-weight: bold;
+    margin: 0%;
+    padding: 30px 10px ;
+  }
+
+  body{
+    background-color: #646cff;
+  }
+
+  
