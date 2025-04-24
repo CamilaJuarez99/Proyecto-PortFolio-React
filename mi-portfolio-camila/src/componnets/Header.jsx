@@ -1,7 +1,9 @@
-function Header({ nombre }) {
+const Header = (datos) => {
   return (
-    <div>
-      <h1> MI PORTFOLIO {nombre} </h1>
+    <div className="header">
+      <br />
+      <h1> Mi portfolio {datos.nombre} {datos.apellido} </h1>
+      <br />
     </div>
   );
 }
