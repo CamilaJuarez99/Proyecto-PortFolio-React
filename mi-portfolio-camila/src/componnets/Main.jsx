@@ -12,7 +12,6 @@ const Main = ({ datos }) => {
           <Card className="text-center mi-card">
             <Card.Img variant="top" src={datos.imagen} />
             <Card.Body>
-              <Card.Title className='titulo'>{datos.nombre} {datos.apellido}</Card.Title>
               <Card.Text className='texto'>{datos.presentacion}</Card.Text>
             </Card.Body>
           </Card>

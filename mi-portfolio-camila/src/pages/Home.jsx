@@ -8,7 +8,7 @@ const Home = () => {
         nombre: "Camila",
         apellido: "Juarez",
         imagen:"/imagenPerfil.jpg",
-        presentacion:"Hola, mi nombres es Camila Juarez, actualmente me encuentro estudiando Programacion en la Facultad Regional Tucuman. Estoy en 2do año e la carrera, puedo manejar los siguientes lenguajes de programacion: java , javascript y c#",
+        presentacion:"Hola mi nombres es Camila Juarez, actualmente me encuentro estudiando Programacion en la Facultad Regional Tucuman. Estoy en 2do año de la carrera, puedo manejar los siguientes lenguajes de programacion: java , javascript y c#.",
 
     };
 
