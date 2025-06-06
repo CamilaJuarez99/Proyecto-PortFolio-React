@@ -1,9 +1,10 @@
-const Header = ({ datos }) => {
+import Navbar from "./Navbar";
+
+const Header = () => {
   return (
     <div className="header">
-      <br />
-      <h1> Mi portfolio {datos.nombre} {datos.apellido} </h1>
-      <br />
+      <h1> CAMILA JUAREZ - Fullstack Developer</h1>
+      <Navbar/>
     </div>
   );
 }

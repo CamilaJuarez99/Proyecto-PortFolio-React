@@ -1,25 +1,15 @@
 import Header from "../componnets/Header";
-import Main from "../componnets/Main";
 import Footer from "../componnets/Footer";
-
+import MainHome from "../componnets/MainHome";
 
 const Home = () => {
-    const datos = {
-        nombre: "Camila",
-        apellido: "Juarez",
-        imagen:"/imagenPerfil.jpg",
-        presentacion:"Hola mi nombres es Camila Juarez, actualmente me encuentro estudiando Programacion en la Facultad Regional Tucuman. Estoy en 2do año de la carrera, puedo manejar los siguientes lenguajes de programacion: java , javascript y c#.",
-
-    };
-
-    return (
-        <div>
-      <Header datos={datos} />
-      <Main datos={datos} />
+  return (
+    <div>
+      <Header />
+      <MainHome />
       <Footer />
     </div>
   );
-
-}
+};
 
 export default Home;
