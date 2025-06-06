@@ -1,31 +1,46 @@
-import React from 'react'
-import { Form , Row, Col , Button} from 'react-bootstrap'
+import React from "react";
+import { useRef } from "react";
+import { Form, Row, Col, Button } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
+import "../css/formulario.css"
 
 const MainContacts = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_us5oxmx", "template_jargdh8", form.current, {
+        publicKey: "vbx0tc5p1_8CUSD0b",
+      })
+      .then(
+        () => {
+          alert("Correo enviado, en breve te voy a contestar")
+          e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
-    <div>
-      <Form class="w-50 p-6 display: flex;">
-      <Form.Group className="mb-3" controlId="forEmail">
-        <Form.Label>Email</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formAsunto">
-        <Form.Label>Asunto</Form.Label>
-        <Form.Control type="text" placeholder="Asunto" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formMensaje">
-        <Form.Label>Mensaje</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-
-        <Form.Group as={Row} className="mb-5">
-        <Col sm={{ span: 10, offset: 2 }}>
-          <Button type="submit">Send</Button>
-        </Col>
-      </Form.Group>
-    </Form>
+    <div className="container my-5 d-flex justify-content-center ">
+      <form ref={form} onSubmit={sendEmail} className="field">
+        <label>Asunto</label>
+        <input type="text" name="user_subject" />
+        <br />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <br />
+        <label>Mensaje</label>
+        <textarea name="message"  />
+        <br />
+        <input type="submit" value="Send" />
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default MainContacts
+export default MainContacts;

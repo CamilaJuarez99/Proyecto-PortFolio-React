@@ -1,0 +1,45 @@
+.field {
+  background-color: #340e44;
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 25px rgba(250, 118, 255, 0.3);
+ 
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 17px;
+  font-weight: bold;
+}
+
+.field textarea,
+.field input[type="text"],
+.field input[type="email"] {
+  display: block;
+  padding: 12px;
+  border-radius: 5px;
+  min-width: 350px;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #f3d7ff;
+}
+
+.field input[type="submit"]{
+    background-color: rgb(194, 130, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.field input[type="submit"]:hover{
+    background-color: rgb(4, 253, 232);
+    transform: translateY(-3px);
+    color: rgb(40, 3, 54);
+}
