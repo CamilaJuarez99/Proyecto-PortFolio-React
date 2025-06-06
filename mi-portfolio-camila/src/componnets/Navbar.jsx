@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../css/navbar.css"
 
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
             <Link className="nav-item nav-link" to="/">
               Home
             </Link>

@@ -1,4 +1,3 @@
-
 .form-container {
     display: flex; 
     justify-content: center; /* Centra horizontalmente los elementos hijos */
@@ -7,6 +6,7 @@
     background-color: #f0f2f5; /* Un color de fondo suave */
     font-family:"roboto"; /* Fuente general */
     flex-direction: column;
+
 }
 
 /* Estilos para el formulario en sí */
