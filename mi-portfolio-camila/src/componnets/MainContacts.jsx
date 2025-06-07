@@ -28,7 +28,7 @@ const MainContacts = () => {
   return (
     <div className="form-container ">
       <br />
-      <h2 className="title">Contactame</h2>
+      <h2 className="title-form">Contactame</h2>
       <form ref={form} onSubmit={sendEmail} className="field">
         <label>Asunto</label>
         <input type="text" name="user_subject" />

@@ -5,6 +5,12 @@
   text-align: center;
 }
 
-body{
-  background-color: rgb(255, 255, 255);
+body.modo-claro .contacts-container {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.modo-oscuro .contacts-container {
+  background-color: #222;
+  color: #f9f9f9;
 }

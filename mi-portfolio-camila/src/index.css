@@ -1,26 +1,8 @@
 
-.header{
-  
-  background-color: rgb(255, 255, 255);
-  color: rgba(186, 45, 205, 0.699);
-  padding: 20px 0;
-  text-align: center;
-  width: 100%;
+body{
   margin: 0;
-  box-shadow: 0 12px 10px rgba(0, 0, 0, #dcd0ff);
- 
-
+  padding: 0;
 }
-
-.header h1{
-  font-size: 3.5rem;
-  font-weight: bold;
-  letter-spacing: 2px;
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif;
-  
-}
-
 
 
 

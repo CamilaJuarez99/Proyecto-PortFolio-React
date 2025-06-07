@@ -12,20 +12,18 @@ const MainAbout = () => {
   };
 
   return (
-    <div className="main">
-      <Container className="mt-5 mi-container">
+    <div className="main-about mt-5 mi-container">
         <Row className="align-items-center justify-content-center">
           <Col md={4} className="image-column text-center">
             <img src={datos.imagen} alt="Perfil" className="imagen-perfil" />
           </Col>
           <Col md={6} className="text-column">
             <div className="linea-decorativa"></div>
-            <h2 className="titulo">Sobre mí</h2>
-            <p className="texto">{datos.presentacion}</p>
+            <h2 className="titulo-about">Sobre mí</h2>
+            <p className="texto-about">{datos.presentacion}</p>
             <div className="linea-decorativa"></div>
           </Col>
         </Row>
-      </Container>
     </div>
   );
 };

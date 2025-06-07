@@ -11,7 +11,7 @@
 }
 
 .bienvenida-overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* máscara oscura semi-transparente */
+  background-color: rgba(0, 0, 0, 0.336); 
   width: 100%;
   height: 100%;
   display: flex;
@@ -22,14 +22,14 @@
 
 .maquina-escribir {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 3.8rem;
   font-weight: bold;
   color: rgba(220, 161, 248, 0.712);
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #ffffff;
   width: 0;
-  animation: escribir 5s steps(60, end) forwards, parpadeo 0.75s step-end infinite;
+  animation: escribir 5s steps(60, end) forwards, parpadeo 0.7s step-end infinite;
   text-align: center;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 
@@ -57,4 +57,15 @@
   .maquina-escribir {
     font-size: 1.4rem;
   }
+}
+
+
+body.modo-claro .contacts-container {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.modo-oscuro .contacts-container {
+  background-color: #222;
+  color: #f9f9f9;
 }

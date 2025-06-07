@@ -3,7 +3,6 @@
     justify-content: center; /* Centra horizontalmente los elementos hijos */
     align-items: center; /* Centra verticalmente los elementos hijos */
     min-height: 100vh; /* Ocupa el 100% del alto de la ventana para poder centrar verticalmente */
-    background-color: #f0f2f5; /* Un color de fondo suave */
     font-family:"roboto"; /* Fuente general */
     flex-direction: column;
 
@@ -11,7 +10,7 @@
 
 /* Estilos para el formulario en sí */
 .form-container form {
-    background-color: #ffffff;
+    
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(187, 40, 255, 0.712);
@@ -81,7 +80,7 @@
 }
 
 
-.title {
+.title-form {
     font-family: 'Roboto'; /* O tu fuente principal */
     font-size: 2.8em;
     color: #a12fc4; /* Un gris más suave */
@@ -95,4 +94,14 @@
     padding-left: 20px; /* Espacio a los lados del texto si usas inline-block y borde */
     padding-right: 20px;
     box-sizing: border-box; /* Asegura que padding no aumente el ancho */
+}
+
+body.modo-claro .contacts-container {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.modo-oscuro .contacts-container {
+  background-color: #222;
+  color: #f9f9f9;
 }

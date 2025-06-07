@@ -8,3 +8,5 @@ color:false,
 cambiarColor:()=>set((state)=>({color:!state.color})),
 
 }))
+
+export default useStore

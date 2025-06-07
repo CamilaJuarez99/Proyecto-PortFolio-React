@@ -5,8 +5,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh; 
-  text-align: center;
-  background-color: #ffffff; 
+  text-align: center; 
   color: #000000; 
   font-family: 'roboto';
   padding: 80px;
@@ -80,3 +79,12 @@
 }
 
 
+body.modo-claro .contacts-container {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.modo-oscuro .contacts-container {
+  background-color: #222;
+  color: #f9f9f9;
+}

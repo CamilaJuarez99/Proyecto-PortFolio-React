@@ -5,7 +5,7 @@
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid rgba(187, 40, 255, 0.712);
-  box-shadow: 0 4px 15px rgba(245, 121, 239, 0.616);
+  box-shadow: 0 4px 15px #f579ef9d;
   transition: transform 0.3s ease;
 }
 
@@ -17,15 +17,15 @@
   padding: 20px;
 }
 
-.titulo {
-  color: #dac0ff;
+.titulo-about {
+  color: #6a43a0;
   font-size: 2rem;
   font-weight: bold;
   text-align: left;
   margin-bottom: 15px;
 }
 
-.texto {
+.texto-about {
   color: #660069;
   font-size: 1.1rem;
   line-height: 1.6;
@@ -41,9 +41,19 @@
   border-radius: 2px;
 }
 
-.main {
+.main-about {
   background-color: rgba(253, 228, 228, 0.5);
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+body.modo-claro .contacts-container {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+body.modo-oscuro .contacts-container {
+  background-color: #222;
+  color: #f9f9f9;
 }

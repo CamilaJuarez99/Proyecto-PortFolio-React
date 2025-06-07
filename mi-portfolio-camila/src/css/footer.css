@@ -1,17 +1,15 @@
 .footer {
-  background-color:rgba(187, 40, 255, 0.712);
-  padding: 20px 0;
-  color: #f0f0f0;
+
   position: relative;
 }
 
 .footer-line {
   border: none;
-  height: 3px;
-  background-color: #f9e3ff;
-  width: 60px;
-  margin: 0 auto 20px auto;
-  border-radius: 2px;
+  height: 24px;
+  background-color: #260027;
+  width: 100%;
+  margin: 0 auto 10px auto;
+  border-radius: 8px;
 }
 
 .footer-text {
@@ -42,3 +40,5 @@
   font-size: 1rem;
   color: #fdefff;
 }
+
+
