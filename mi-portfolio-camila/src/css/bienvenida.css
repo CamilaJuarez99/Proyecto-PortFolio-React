@@ -1,0 +1,60 @@
+.bienvenida-fondo {
+  background-image: url("/public/fondo.jpg"); /* Reemplazá con el path correcto */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* esto hace que quede estática al hacer scroll */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bienvenida-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* máscara oscura semi-transparente */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.maquina-escribir {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(220, 161, 248, 0.712);
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #ffffff;
+  width: 0;
+  animation: escribir 5s steps(60, end) forwards, parpadeo 0.75s step-end infinite;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+@keyframes escribir {
+  from {
+    width: 0;
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes parpadeo {
+  0%, 100% { border-color: #ffffff; }
+  50% { border-color: transparent; }
+}
+
+@media (max-width: 768px) {
+  .maquina-escribir {
+    font-size: 1.4rem;
+  }
+}

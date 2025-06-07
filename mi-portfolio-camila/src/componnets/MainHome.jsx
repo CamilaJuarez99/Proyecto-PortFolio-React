@@ -3,6 +3,7 @@ import Bienvenida from './Bienvenida';
 import Proyects from '../pages/Proyects';
 import MainProyects from './MainProyects';
 import "../css/main.css"
+import MainAbout from './MainAbout';
 
 
 const MainHome = () => {
@@ -11,6 +12,7 @@ const MainHome = () => {
     
   <div>
     <Bienvenida/>
+    <MainAbout/>
     <MainProyects/>
     
   </div>

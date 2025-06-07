@@ -6,8 +6,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import Contacts from "./pages/Contacts";
 import Proyects from "./pages/Proyects";
+import Error from "./pages/Error";
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -16,6 +18,7 @@ function App() {
           <Route path="/contacts" element={<Contacts/>}/>
           <Route path="/aboutme" element={<AboutMe />}/>
           <Route path="/proyects" element={<Proyects/>}/>
+          <Route path="*" element={<Error/>}/>
         </Routes>
       </BrowserRouter>
     </div>

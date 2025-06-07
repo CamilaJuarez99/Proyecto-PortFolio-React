@@ -14,14 +14,15 @@ const MainAbout = () => {
   return (
     <div className="main">
       <Container className="mt-5 mi-container">
-        <Row className="justify-content-center">
-          <Col md={6} lg={4}>
-            <Card className="text-center mi-card">
-              <Card.Img variant="top" src={datos.imagen} />
-              <Card.Body>
-                <Card.Text className="texto">{datos.presentacion}</Card.Text>
-              </Card.Body>
-            </Card>
+        <Row className="align-items-center justify-content-center">
+          <Col md={4} className="image-column text-center">
+            <img src={datos.imagen} alt="Perfil" className="imagen-perfil" />
+          </Col>
+          <Col md={6} className="text-column">
+            <div className="linea-decorativa"></div>
+            <h2 className="titulo">Sobre mí</h2>
+            <p className="texto">{datos.presentacion}</p>
+            <div className="linea-decorativa"></div>
           </Col>
         </Row>
       </Container>

@@ -1,33 +1,49 @@
-.mi-card {
-    background-color: #646cff;
-    border: 1px solid #3e478e;
-    box-shadow: 0 4px 20px  #320671;
-    transition: transform 0.3s ease;
-  }
 
-  .mi-card:hover {
-    transform: scale(1.02);
-  }
-  
-  
-  .titulo {
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+.imagen-perfil {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgba(187, 40, 255, 0.712);
+  box-shadow: 0 4px 15px rgba(245, 121, 239, 0.616);
+  transition: transform 0.3s ease;
+}
 
-  }
+.imagen-perfil:hover {
+  transform: scale(1.05);
+}
 
-  .texto {
-    color: #320671;
-    font-size: italic;
-    width: 100%;
-    background-color: #adb5f5;
-    font-weight: bold;
-    margin: 0%;
-    padding: 30px 10px ;
-  }
+.text-column {
+  padding: 20px;
+}
 
-  body{
-    background-color: #646cff;
-  }
+.titulo {
+  color: #dac0ff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 15px;
+}
 
-  
+.texto {
+  color: #660069;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.linea-decorativa {
+  height: 3px;
+  background-color:rgba(187, 40, 255, 0.712);
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 2px;
+}
+
+.main {
+  background-color: rgba(253, 228, 228, 0.5);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

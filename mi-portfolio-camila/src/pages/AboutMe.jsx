@@ -9,7 +9,7 @@ const AboutMe = () => {
    
 
   return (
-      <div>
+      <div >
       <Header/>
       <MainAbout/>
       <Footer/>

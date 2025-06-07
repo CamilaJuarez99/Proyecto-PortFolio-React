@@ -1,10 +1,10 @@
 .navbar {
-    background-color: #050000 !important; /* Fondo oscuro (anula bg-light) */
+    background-color: #f8f8f8 ; 
     border-bottom: 3px solid rgba(186, 45, 205, 0.699); /* Línea sutil en la parte inferior */
-    box-shadow: 0 2px 10px rgba(224, 146, 255, 0.692); /* Sombra para darle profundidad */
-    padding-left: 1rem; /* Padding horizontal para que no se vea pegado */
-    padding-right: 1rem; /* Padding horizontal para que no se vea pegado */
-     display: flex; /* Asegura que el navbar sea un contenedor flex */
+    box-shadow: 0 2px 10px rgba(186, 45, 205, 0.699); /* Sombra para darle profundidad */
+    margin: 0%;
+    padding: 0%;
+    display: flex; /* Asegura que el navbar sea un contenedor flex */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay espacio */
     justify-content: center; /* Centra el contenido del navbar si solo hay links */
     align-items: center; /* Centra verticalmente los elementos */
@@ -12,16 +12,16 @@
 
 
 .navbar.navbar-light .navbar-nav .nav-link {
-    color: #ff78ff ; 
-    font-weight: 500; /* Un poco más de grosor en la fuente */
-    padding: 0.5rem 1.2rem; /* Más padding alrededor de los enlaces */
+    color: #e978ff ; 
+    font-weight: 900; /* Un poco más de grosor en la fuente */
+    padding: 0.6rem 1.3rem; /* Más padding alrededor de los enlaces */
     transition: color 0.3s ease, background-color 0.3s ease; /* Transición suave */
-    border-radius: 5px; /* Bordes redondeados para el efecto hover */
+    border-radius: 8px; /* Bordes redondeados para el efecto hover */
 }
 
 /* Efecto al pasar el ratón sobre los enlaces */
 .navbar.navbar-light .navbar-nav .nav-link:hover {
-    color: #f9ddfd ; /* Azul brillante al pasar el ratón */
+    color: #fef5ff ; /* Azul brillante al pasar el ratón */
     background-color: rgba(192, 57, 255, 0.486); /* Fondo muy sutil al pasar el ratón */
 }
 
@@ -55,9 +55,5 @@
     }
 }
 
-/* Puedes añadir más media queries si necesitas otros breakpoints (sm, md) */
-/*
-@media (max-width: 767.98px) { // breakpoint 'md'
-    // Estilos específicos para pantallas más pequeñas aún
-}
+
 
