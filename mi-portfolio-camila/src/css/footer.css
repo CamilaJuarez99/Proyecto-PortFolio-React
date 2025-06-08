@@ -1,15 +1,15 @@
 .footer {
-
-  position: relative;
+  background: linear-gradient(to bottom, #610497c5, #3c4683d5);
+  
 }
 
 .footer-line {
   border: none;
-  height: 24px;
+  height: 12px;
   background-color: #260027;
   width: 100%;
   margin: 0 auto 10px auto;
-  border-radius: 8px;
+  
 }
 
 .footer-text {

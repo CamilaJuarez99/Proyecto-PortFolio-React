@@ -4,6 +4,8 @@ import Proyects from '../pages/Proyects';
 import MainProyects from './MainProyects';
 import "../css/main.css"
 import MainAbout from './MainAbout';
+import Manejar from './Manejar';
+
 
 
 const MainHome = () => {
@@ -13,8 +15,9 @@ const MainHome = () => {
   <div>
     <Bienvenida/>
     <MainAbout/>
+    <Manejar/>
     <MainProyects/>
-    
+
   </div>
   );
 };

@@ -1,0 +1,40 @@
+{
+  "proyectos": [
+    {
+      "nombre": "Login",
+      "github": "https://github.com/CamilaJuarez99/LOGIN-JSON",
+      "descripcion": "Cree un Login para un drugstore, con HTML, CSS y JavaScript. Use un JSON como una base de datos temporal.",
+      "imagen":"/login.jpg"
+    },
+    {
+      "nombre": "Calculadora basica",
+      "github": "https://github.com/CamilaJuarez99/calculadora-basica",
+      "descripcion": "Una calculadora basica con html, css y js.",
+      "imagen":"/Calculadora.jpg"
+    },
+    {
+      "nombre": "PortFolio",
+      "github": "https://github.com/CamilaJuarez99/Proyecto-PortFolio-React",
+      "descripcion": "Primer portfolio con React",
+      "imagen":"/portfolio.jpg"
+    },
+    {
+      "nombre": "Proyecto-tp2",
+      "github": "https://github.com/Yudi454/proyecto-tp2",
+      "descripcion": "Proyecto que realizamos con varios compañeros",
+      "imagen":"/proyecto.jpg"
+    },
+    {
+      "nombre": "Canchas deportivas",
+      "github": "",
+      "descripcion": "Proximamente",
+      "imagen":"/proximamente.jpg"
+    },
+    {
+      "nombre": "Proyecto Final",
+      "github": "",
+      "descripcion": "Proximamente",
+      "imagen": "/proximamente.jpg"
+    }
+  ]
+}

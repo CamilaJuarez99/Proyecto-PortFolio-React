@@ -1,5 +1,54 @@
 body.modo-claro {
-  background-color: rgb(221, 136, 255);
-  color: rgb(89, 1, 116);
+  background: linear-gradient(to bottom, #bb46ffb6, #939bc7d5);
+  color: rgb(32, 1, 41);
 }
+
+.modo-claro h1{
+color: rgb(41, 3, 37);
+text-shadow: 0 3px 6px rgba(228, 159, 245, 0.76);
+}
+
+.modo-claro h2{
+  color: rgb(77, 3, 92);
+  text-shadow: 0 3px 6px rgba(228, 159, 245, 0.76);
+}
+
+.modo-claro .maquina-escribir {
+  
+  color: rgb(192, 75, 247);
+  text-shadow: 0 3px 6px rgba(70, 10, 85, 0.76);
+
+}
+
+.modo-claro .header{
+  background: linear-gradient(to bottom,  #bb46ffb6, #939bc7d5);
+  color: rgb(32, 1, 41);
+}
+
+
+.modo-claro .titulo-proyectos {
+    
+  text-shadow: 0 3px 6px rgba(228, 159, 245, 0.76);
+  color: rgb(77, 3, 92);
+
+}
+
+.modo-claro .project-title{
+  text-shadow: 0 3px 6px rgba(228, 159, 245, 0.76);
+  color: rgb(77, 3, 92);
+}
+
+.modo-claro .navbar.navbar-light .navbar-nav .nav-link {
+   
+  color: rgb(109, 4, 138);
+}
+
+.modo-claro .navbar {
+    background: linear-gradient(to bottom, #bb46ffb6, #939bc7d5);
+    border-bottom: 3px solid #d338e7b2; 
+    box-shadow: 0 2px 10px rgba(186, 45, 205, 0.699); 
+    
+}
+
+
 

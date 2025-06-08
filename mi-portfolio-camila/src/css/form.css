@@ -17,17 +17,17 @@
     width: 100%;
     max-width: 500px; /* Limita el ancho máximo del formulario */
     display: flex;
-    flex-direction: column; /* Organiza los elementos en columna */
+    flex-direction: column; 
 }
 
-/* Estilos para las etiquetas */
+
 .form-container label {
     margin-bottom: 8px;
     font-weight: bold;
     color: #a12fc4;
 }
 
-/* Estilos para los inputs y textarea */
+
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container textarea {
@@ -37,21 +37,21 @@
     border: 3px solid #9c268d;
     border-radius: 8px;
     font-size: 16px;
-    width: calc(100% - 24px); /* Ancho completo menos el padding */
-    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    width: calc(100% - 24px); 
+    box-sizing: border-box; 
 }
 
 .form-container textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
-    min-height: 100px; /* Altura mínima del textarea */
+    resize: vertical; 
+    min-height: 100px;
 }
 
-/* Estilos para el botón de submit */
+
 .submit-button {
 
     display: block;
     margin: auto;
-    background-color: #a46bca; /* Color azul para el botón */
+    background-color: #a46bca; 
     color: white;
     padding: 12px 23px;
     border: none;
@@ -59,49 +59,39 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transiciones para animaciones */
-    outline: none; /* Elimina el borde de enfoque por defecto */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+    outline: none; 
 }
 
-/* Animación al pasar el mouse (hover) */
+
 .submit-button:hover {
-    background-color: #2a0033; /* Un azul más oscuro al pasar el mouse */
-    transform: translateY(-2px); /* Ligeramente hacia arriba */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    background-color: #2a0033; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 
-/* Estilos responsivos (opcional pero recomendado) */
+
 @media (max-width: 600px) {
     .form-container form {
         padding: 20px;
-        margin: 20px; /* Margen en pantallas pequeñas */
+        margin: 20px; 
     }
 }
 
 
 .title-form {
-    font-family: 'Roboto'; /* O tu fuente principal */
-    font-size: 2.8em;
-    color: #a12fc4; /* Un gris más suave */
+    font-family: 'Roboto'; 
+    color: #a12fc4; 
     text-align: center;
     margin-bottom: 35px;
-    font-weight: 500; /* Menos negrita */
+    font-weight: 900; 
     letter-spacing: 0.5px;
-    padding-bottom: 5px; /* Pequeño espacio para un posible borde */
-    border-bottom: 2px solid #806bf3; /* Una línea sutil debajo */
-    display: inline-block; /* Para que el borde se ajuste al ancho del texto */
-    padding-left: 20px; /* Espacio a los lados del texto si usas inline-block y borde */
+    padding-bottom: 5px; 
+    border-bottom: 2px solid #fcfcfc; 
+    display: inline-block; 
+    padding-left: 20px; 
     padding-right: 20px;
-    box-sizing: border-box; /* Asegura que padding no aumente el ancho */
+    box-sizing: border-box; 
 }
 
-body.modo-claro .contacts-container {
-  background-color: #f9f9f9;
-  color: #222;
-}
-
-body.modo-oscuro .contacts-container {
-  background-color: #222;
-  color: #f9f9f9;
-}

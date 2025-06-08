@@ -8,11 +8,14 @@ const MainAbout = () => {
     apellido: "Juarez",
     imagen: "/imagenPerfil.jpg",
     presentacion:
-      "Hola mi nombres es Camila Juarez, actualmente me encuentro estudiando Programacion en la Facultad Regional Tucuman. Estoy en 2do año de la carrera, puedo manejar los siguientes lenguajes de programacion: java , javascript y c#.",
+      "Hola mi nombres es Camila Juarez, actualmente me encuentro estudiando Programacion en la Facultad Regional Tucuman. Estoy en 2do año de la carrera, tengo muchas ganas de aprender con la experiencia."
   };
 
   return (
-    <div className="main-about mt-5 mi-container">
+    <div className="main-about">
+      <br />
+      <br />
+      <br />
         <Row className="align-items-center justify-content-center">
           <Col md={4} className="image-column text-center">
             <img src={datos.imagen} alt="Perfil" className="imagen-perfil" />
@@ -24,6 +27,8 @@ const MainAbout = () => {
             <div className="linea-decorativa"></div>
           </Col>
         </Row>
+        <br />
+        <br />
     </div>
   );
 };

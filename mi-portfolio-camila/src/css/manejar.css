@@ -1,0 +1,62 @@
+.titulo-tecnologias {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #6a43a0;
+  margin-bottom: 0.2rem;
+  padding: 74px;
+   
+}
+
+
+.tecnologias-lista {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.tecnologia-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  opacity: 0;
+  transform: scale(0.8) translateY(20px);
+  animation: zoomIn 0.6s ease forwards;
+  animation-delay: calc(var(--i) * 0.2s);
+  
+}
+
+.tecnologia-item:hover {
+  animation: bounce 0.6s ease;
+  cursor: pointer;
+  color: #6a43a0;
+}
+
+.icono {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s;
+ 
+}
+
+/* Más animaciones */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}

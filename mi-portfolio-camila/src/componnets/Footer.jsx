@@ -2,15 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaInstagram, FaGithub } from "react-icons/fa";
 import "../css/footer.css";
-import useStore from "../stores/useStore";
+
 
 const Footer = () => {
-  const { color } = useStore();
+ 
 
   return (
     <>
   
-      <div style={{ backgroundColor: color ? "#000" : "#f579ef9d", color: color ? "#9c268d" : "#000" }}>
+      <div >
         <footer className="footer">
           <Row className="text-center align-items-center">
             <Col>

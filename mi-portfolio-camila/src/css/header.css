@@ -1,26 +1,25 @@
-
 .header {
-  display: flex;             
-  justify-content: space-between; 
-  align-items: center;       
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 2.4rem 2rem;
   box-shadow: 0 2px 10px rgba(186, 45, 205, 0.699);
+  
 }
 
 .header-title-container {
-    flex-grow: 1; 
-    text-align: center;
-  }
-  
-  .header h1 {
-    font-size: 3.9rem;
-    font-family: "roboto";
-    margin: 0; 
-    color: rgba(186, 45, 205, 0.699);
-    font-weight: 900;
-    text-shadow: 0 1px 8px rgba(215, 90, 231, 0.699);
+  flex-grow: 1;
+  text-align: center;
 }
 
+.header h1 {
+  font-size: 3.9rem;
+  font-family: "roboto";
+  margin: 0;
+  color: rgba(162, 1, 184, 0.699);
+  font-weight: 900;
+  text-shadow: 0 1px 8px rgba(153, 8, 172, 0.555);
+}
 
 .btn:hover {
   color: #df85d3;
@@ -42,8 +41,6 @@
   background: rgba(186, 45, 205, 0.699);
 }
 
-
-
 .navbar a {
   color: #ffffff;
   text-decoration: none;
@@ -56,37 +53,31 @@
   color: #61dafb;
 }
 
-body.modo-claro .header {
-  background-color: #ffffff;
-  color: #111111;
-}
 
 body.modo-claro .toggle-theme-btn {
-  
-  color: #e190e9;
-  padding: 0.2rem 0.3rem;
+  color: #fef7ff;
+  padding: 0.5rem 0.9rem;
   cursor: pointer;
   position: relative;
   transition: all 0.3s ease;
-  border-radius: 10px;
+  border-radius: 8px;
   z-index: 0;
   border: 2px solid rgba(201, 45, 221, 0.699);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background: transparent;
-  
+  display: flex;
 }
 
 body.modo-oscuro .toggle-theme-btn {
-  
   color: #793680;
-  padding: 0.2rem 0.3rem;
+  padding: 0.5rem 0.9rem;
   cursor: pointer;
   position: relative;
   transition: all 0.3s ease;
   border-radius: 10px;
   z-index: 0;
   border: 2px solid rgba(201, 45, 221, 0.699);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background: transparent;
-
+  display: flex;
 }

@@ -1,5 +1,40 @@
 body.modo-oscuro {
   background-color: #27004b;
-  color: rgb(218, 137, 255);
+  color: rgb(241, 220, 250);
 }
+
+.modo-oscuro h1{
+color: rgb(172, 49, 189);
+text-shadow: 0 3px 6px rgba(240, 202, 250, 0.445);
+}
+
+
+
+.modo-oscuro .titulo-about{
+  margin-top: 25px;
+  color: #ed5dfa;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 25px;
+  font-family: "roboto";
+}
+
+.modo-oscuro .texto-about {
+  color: #fcd8fd;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 33px;
+  font-family: "roboto";
+}
+
+.modo-oscuro .titulo-proyectos,
+.project-title {
+    
+    color: #c198fc;
+    text-shadow: 0 3px 6px rgba(240, 202, 250, 0.445);
+
+}
+
 

@@ -31,13 +31,13 @@ const MainContacts = () => {
       <h2 className="title-form">Contactame</h2>
       <form ref={form} onSubmit={sendEmail} className="field">
         <label>Asunto</label>
-        <input type="text" name="user_subject" />
+        <input type="text" name="user_subject" placeholder="Asunto" />
         <br />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email" placeholder="camila@gmail.com"/>
         <br />
         <label>Mensaje</label>
-        <textarea name="message"  />
+        <textarea name="message" placeholder="Escribe tu mensaje" />
         <br />
         <input type="submit" className="submit-button" value="Send" />
       </form>

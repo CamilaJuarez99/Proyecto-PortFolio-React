@@ -1,0 +1,88 @@
+.titulo-proyectos{
+    
+    color: #794bb9;
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 48px;
+    margin-top: 35px;
+    font-family: "roboto";
+    
+}
+
+.project-title {
+  color: #794bb9;
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-family: "roboto";
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  grid-template-columns: repeat(3,1fr);
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  position: relative;
+  width: 270px;
+  height: 245px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-shadow: 0 4px 15px rgb(69, 4, 85);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 29px rgba(0, 0, 0, 0.3);
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.534);
+  color: rgb(243, 197, 255);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.699);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+.card-overlay h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.card-overlay p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.card-overlay a {
+  color: #db96f8;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-shadow: 0 2px 12px rgba(59, 10, 66, 0.959);
+}
+
+.card-overlay a:hover {
+  text-decoration: underline;
+}
+
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
